@@ -1,0 +1,52 @@
+* {
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box;
+}
+.text-center {
+  text-align: center;
+}
+header, main {
+  width: 80vw;
+  margin: 0 10vw;
+}
+form { 
+  width: 100%;
+}
+.input-body {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+.input-body label {
+  width: 50px;
+  text-align: left;
+  padding: 5px 2px;
+  font-weight: bold;
+}
+.input-body input {
+  width: calc(100% - 50px);
+  border: 0;
+}
+.input-body input[type=file] {
+  border: 0;
+  padding: 5px 0;
+}
+.input-body input[type=submit] {
+  width: 100% !important;
+  border-radius: 7px;
+  padding: 5px 15px;
+}
+.input-body input[type=submit]:hover {
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow:5px 5px 10px 5px rgba(77, 71, 71, 0.2);
+}
+.imgs {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+}
+.img {
+  width: 100%;
+}
